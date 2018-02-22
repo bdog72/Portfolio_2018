@@ -1,0 +1,40 @@
+/* 
+#1B1D26
+#425955
+#778C7A 
+#F1F2D8
+#BFBD9F
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f2d8;
+    box-sizing: border-box;
+}
+
+.container-head {
+    margin-top: 10px;
+    background-color: #425955;
+}
+
+.header-name {
+    font-size: 50px;
+    /* text-align: center; */
+}
+
+@media (max-width: 768px) {
+    .header-name {
+        font-size: 40px;
+        color: #fff;
+    }
+}
+
+.img-thumbnail {
+    height: 300px;
+}
+
+.github-container {
+    background-color: #778c7a;
+}
