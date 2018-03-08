@@ -1,18 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class App extends Component {
     constructor() {
         super();
         this.state = {
-            name: '',
-            location: '',
-            imageURL: '',
-            bio: ''
+            name: "",
+            location: "",
+            imageURL: "",
+            bio: ""
         };
     }
     componentDidMount() {
         window
-            .fetch('https://api.github.com/users/bdog72')
+            .fetch("https://api.github.com/users/bdog72")
             .then(response => {
                 return response.json();
             })
@@ -28,7 +28,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <header className="container container-head">
+                <header className="container-head">
                     <div>
                         <h1 className="header-name text-center">
                             Brian Bycynski
@@ -36,12 +36,12 @@ class App extends Component {
                         <img
                             alt=""
                             className="img-thumbnail mx-auto d-block"
-                            src={require('./images/profile_pic.jpg')}
+                            src={require("./images/profile_pic.jpg")}
                         />
                     </div>
                 </header>
                 <section>
-                    <div className="container github-container">
+                    <div className="github-container">
                         <h1 className="text-center">My Current Github Chart</h1>
                         <a href="https://github.com/bdog72">
                             <img
@@ -83,11 +83,11 @@ class App extends Component {
                 </section>
                 <section>
                     <h1>Some of the skills i have learned</h1>
-                    <img alt="" src={require('./images/html5.png')} />
-                    <img alt="" src={require('./images/css3.png')} />
-                    <img alt="" src={require('./images/bootstrap.png')} />
-                    <img alt="" src={require('./images/js.png')} />
-                    <img alt="" src={require('./images/React.js.png')} />
+                    <img alt="" src={require("./images/html5.png")} />
+                    <img alt="" src={require("./images/css3.png")} />
+                    <img alt="" src={require("./images/bootstrap.png")} />
+                    <img alt="" src={require("./images/js.png")} />
+                    <img alt="" src={require("./images/React.js.png")} />
                 </section>
                 <footer>
                     <p>813-505-4733</p>
