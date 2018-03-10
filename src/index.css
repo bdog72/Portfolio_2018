@@ -30,8 +30,10 @@ body {
     }
 }
 
-.img-thumbnail {
-    height: 300px;
+.img-fluid {
+    /* height: 300px; */
+    max-height: 50vh;
+    /* max-width: 50%; */
 }
 
 .github-container {

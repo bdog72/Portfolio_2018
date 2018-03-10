@@ -35,7 +35,7 @@ class App extends Component {
                         </h1>
                         <img
                             alt=""
-                            className="img-thumbnail mx-auto d-block"
+                            className="img-fluid mx-auto d-block"
                             src={require("./images/profile_pic.jpg")}
                         />
                     </div>
