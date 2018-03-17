@@ -1,11 +1,51 @@
 body {
     margin: 0;
     padding: 0;
+    background: #272930;
 }
 
-h1 {
-    color: #1325c5;
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "header"
+        "article"
+        "section"
+        "footer";
 }
+
+.wrapper > * {
+    padding: 1em;
+    border-radius: 1em;
+    border: 5px solid #f3ebdc;
+}
+
+header {
+    grid-area: header;
+    background: #7d7e85;
+}
+
+article {
+    grid-area: article;
+    background: #b6b7bd;
+}
+
+section {
+    grid-area: section;
+    background: #7d7e85;
+}
+
+footer {
+    grid-area: footer;
+    background: #7d7e85;
+}
+
+p,
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
 .profile-pic {
     max-height: 500px;
 }
@@ -17,6 +57,16 @@ h1 {
 }
 
 .icon {
-    color: red;
     max-height: 100px;
+}
+
+.social-media-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+span {
+    color: red;
+    font-size: 25px;
 }
