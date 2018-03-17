@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #1325c5;
+}
+.profile-pic {
+    max-height: 500px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icon {
+    color: red;
+    max-height: 100px;
+}
