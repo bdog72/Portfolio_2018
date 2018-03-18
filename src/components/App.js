@@ -16,14 +16,20 @@ class App extends Component {
                         />
                     </header>
                     <article>
-                        <p>My current GitHub chart</p>
-                        <a href="https://github.com/bdog72">
-                            <img
-                                className="img-fluid mx-auto d-block"
-                                src="http://ghchart.rshah.org/272930/bdog72"
-                                alt="hithub-chart"
-                            />
-                        </a>
+                        <div className="card">
+                            <a href="https://github.com/bdog72">
+                                <img
+                                    className="img-fluid mx-auto d-block"
+                                    src="http://ghchart.rshah.org/272930/bdog72"
+                                    alt="hithub-chart"
+                                />
+                            </a>
+                            <div className="card-body">
+                                <p className="card-text">
+                                    My Current GitHub chart
+                                </p>
+                            </div>
+                        </div>
                     </article>
                     <section>
                         <p>Some of the skills i have learned</p>
@@ -93,3 +99,12 @@ class App extends Component {
 }
 
 export default App;
+
+// <p>My current GitHub chart</p>
+// <a href="https://github.com/bdog72">
+//     <img
+//         className="img-fluid mx-auto d-block"
+//         src="http://ghchart.rshah.org/272930/bdog72"
+//         alt="hithub-chart"
+//     />
+// </a>
