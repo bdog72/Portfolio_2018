@@ -86,11 +86,13 @@ class App extends Component {
                                 />
                             </a>
                         </div>
-                        <p>high5bri@hotmail.com</p>
-                        <p>813-505-4733</p>
-                        <p>
-                            Made With <span>&hearts;</span> in 2018
-                        </p>
+                        <div className="bio">
+                            <p>high5bri@hotmail.com</p>
+                            <p>813-505-4733</p>
+                            <p>
+                                Made With <span>&hearts;</span> in 2018
+                            </p>
+                        </div>
                     </footer>
                 </div>
             </div>
