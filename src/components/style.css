@@ -41,9 +41,11 @@ footer {
     background: #7d7e85;
 }
 
-h1 {
+h1,
+h2 {
     color: #fff;
     text-align: center;
+    margin: 10px 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,10 +79,15 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 5px;
 }
 
 .icon {
     max-height: 100px;
+}
+
+.icons .icon {
+    margin: 15px;
 }
 
 .social-media-icons {

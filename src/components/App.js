@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "font-awesome/css/font-awesome.min.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 class App extends Component {
     render() {
@@ -11,9 +11,10 @@ class App extends Component {
                     <h1>Brian Bycynski</h1>
                     <img
                         className="img-fluid mx-auto d-block profile-pic rounded"
-                        src={require("./img/profile_pic copy.jpg")}
+                        src={require('./img/profile_pic copy.jpg')}
                         alt="profile-pic"
                     />
+                    <h2>I am a JR Front End Web Developer</h2>
                 </header>
                 <article>
                     <div className="card">
@@ -34,28 +35,28 @@ class App extends Component {
                     <div className="icons">
                         <img
                             className="icon"
-                            src={require("./img/html5.png")}
+                            src={require('./img/html5.png')}
                             alt="html-icon"
                         />
                         <img
                             className="icon"
-                            src={require("./img/css3.png")}
+                            src={require('./img/css3.png')}
                             alt="html-icon"
                         />
                         <img
                             className="icon"
-                            src={require("./img/js.png")}
+                            src={require('./img/js.png')}
                             alt="html-icon"
                         />
 
                         <img
                             className="icon"
-                            src={require("./img/bootstrap.png")}
+                            src={require('./img/bootstrap.png')}
                             alt="html-icon"
                         />
                         <img
                             className="icon"
-                            src={require("./img/React.js.png")}
+                            src={require('./img/React.js.png')}
                             alt="html-icon"
                         />
                     </div>
@@ -66,9 +67,9 @@ class App extends Component {
                         <a href="https://twitter.com/Bdoggy72">
                             <i
                                 style={{
-                                    fontSize: "100px",
-                                    color: "black",
-                                    margin: "20px"
+                                    fontSize: '100px',
+                                    color: 'black',
+                                    margin: '20px'
                                 }}
                                 className="fa fa-twitter"
                             />
@@ -76,9 +77,9 @@ class App extends Component {
                         <a href="https://www.linkedin.com/feed/">
                             <i
                                 style={{
-                                    fontSize: "100px",
-                                    color: "black",
-                                    margin: "20px"
+                                    fontSize: '100px',
+                                    color: 'black',
+                                    margin: '20px'
                                 }}
                                 className="fa fa-linkedin"
                             />
