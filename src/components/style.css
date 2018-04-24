@@ -67,7 +67,7 @@ p {
 
 .profile-pic {
     max-height: 500px;
-    margin-bottom: 5px;
+    margin: 5px;
 }
 
 .card-text {
