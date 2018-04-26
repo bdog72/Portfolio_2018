@@ -19,9 +19,11 @@ class App extends Component {
                 <article>
                     <div className="card">
                         <div className="card-body">
-                            <p className="card-text">My Current GitHub chart</p>
+                            <p className="card-text">
+                                Click on my current GitHub chart
+                            </p>
                         </div>
-                        <a href="https://github.com/bdog72">
+                        <a class="gitChart" href="https://github.com/bdog72">
                             <img
                                 className="img-fluid mx-auto mb-2 d-block"
                                 src="http://ghchart.rshah.org/272930/bdog72"
