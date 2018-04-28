@@ -23,7 +23,10 @@ class App extends Component {
                                 Click on my current GitHub chart
                             </p>
                         </div>
-                        <a class="gitChart" href="https://github.com/bdog72">
+                        <a
+                            className="gitChart"
+                            href="https://github.com/bdog72"
+                        >
                             <img
                                 className="img-fluid mx-auto mb-2 d-block"
                                 src="http://ghchart.rshah.org/272930/bdog72"
