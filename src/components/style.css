@@ -27,6 +27,10 @@ header {
     background: #7d7e85;
 }
 
+header h2 {
+    margin: 20px 5px;
+}
+
 article {
     grid-area: article;
     background: #b6b7bd;
