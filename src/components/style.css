@@ -93,6 +93,10 @@ p {
     }
 }
 
+.gitChart {
+    margin-bottom: 20px;
+}
+
 .card-text {
     color: #000;
     font-size: 25px;
